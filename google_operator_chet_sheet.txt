@@ -1,0 +1,43 @@
+________                __    ____  ___
+\______ \   ___________|  | __\   \/  /
+ |    |  \ /  _ \_  __ \  |/ / \     / 
+ |    `   (  <_> )  | \/    <  /     \ 
+/_______  /\____/|__|  |__|_ \/___/\  \
+        \/                  \/      \_/
+
+
+
+Categorie : 
+        
+        -Recherche Par Mot clefs : 
+                operator : 
+                        inposttile:  #Finds pages with keywords in their post titles
+
+                        filetype:    #Returns only files of a particular type associated with
+                                      the keyword searched
+
+                        site:        #Limit results to those from one site
+
+                        intitle:     #Returns pages based on the searched query appearing
+                                      in their title
+
+                        allintitle:  #Similar to intitle: but only returns titles where all
+                                      the words in the title match
+
+                        inurl:       #Only returns results where the queried keyword(s) is
+                                      present in the URL
+
+                        allinurl:    #As above but only containing all of the specified words
+                                      in the URL
+
+                        intext:      #Finds pages where the keyword(s) are mentioned
+                                      within the page content.
+
+                        allintext:   #Similar to “intext,” but only results containing all
+                                      of the specified words somewhere on the page will be
+                                      returned.
+
+                        
+
+
+                
