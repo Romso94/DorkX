@@ -1,6 +1,6 @@
 # DorkX
 Projet Google Dorks
-    /!\ Processing /!\ 
+    Cheat sheet of Google  operator !
 
 ________                __    ____  ___
 \______ \   ___________|  | __\   \/  /
@@ -9,6 +9,9 @@ ________                __    ____  ___
 /_______  /\____/|__|  |__|_ \/___/\  \
         \/                  \/      \_/
       
+      
+   Go check google_operator_cheat_sheet.txt
+   
 
 
 
