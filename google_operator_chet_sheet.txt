@@ -9,7 +9,7 @@ ________                __    ____  ___
 
 Categorie : 
         
-        -Recherche Par Mot clefs : 
+        -Recherche Par Mots clefs : 
                 operator : 
                         inposttile:  #Finds pages with keywords in their post titles
 
