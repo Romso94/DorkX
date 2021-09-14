@@ -37,7 +37,32 @@ Categorie :
                                       of the specified words somewhere on the page will be
                                       returned.
 
+                        datarange:  #Return results in a specified range (requires julian
+                                     dates)
+
+                        link:       #Find pages that link to the target domain
+
+                        inanchor:   #Find pages linked to with the specified anchor text/
+                                     phrase. Data is heavily sampled.
+
+                        allinanchor: #Find pages with all individual terms after "inanchor:"
+                                      in the inbound anchor text.
+
+       -Recherche par information:
+                operator: 
+                        define:  #Returns a definition of the given term.
+
+                        time:    #Returns the current time at a particular location.
+
                         
+
+
+
+
+
+                        
+
+
 
 
                 
