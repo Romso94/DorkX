@@ -9,7 +9,7 @@ ________                __    ____  ___
 
 Categorie : 
         
-        -Recherche Par Mots clefs : 
+        -Popular Search operators: 
                 operator : 
                         inposttile:  #Finds pages with keywords in their post titles
 
@@ -48,11 +48,53 @@ Categorie :
                         allinanchor: #Find pages with all individual terms after "inanchor:"
                                       in the inbound anchor text.
 
-       -Recherche par information:
-                operator: 
-                        define:  #Returns a definition of the given term.
+                        cache:       #Show Google's cached version of a specific page.
 
-                        time:    #Returns the current time at a particular location.
+       -Informational Search Queries:
+                operator: 
+                        define  #Returns a definition of the given term.
+
+                        time    #Returns the current time at a particular location.
+
+                        to/in      #Convert measurements from one unit to another.
+
+                        translate  #Translates the queried terms into another specified   
+                                    language.
+
+                        map        #Returns map result.
+
+                        stocks     #Returns stock information.
+
+                        weather    #Returns the weather forecast for the given location or ZIP 
+                                    code
+
+       -Basic search operator :
+                operator:
+                        -          #Excludes search results that include this term.
+
+                        |          #Returns search results that match terms on either side of 
+                                    the pipe. The same as writing "OR" between search terms.
+
+                        @          #Returns search results that match a particular social 
+                                    media site.
+
+                        #          #Returns search results that include a specific hashtag.
+
+                        ""         #Returns search results that include all terms within 
+                                    quotes in the exact given order.
+
+                        *          #Returns search results where any words can be matched in 
+                                    place of the asterisk.
+
+                        ..         #When placed between two numbers, returns search results 
+                                    that match within the number range.
+
+                        ()         #Used to group search terms and control the search logic of 
+                                    the query.
+
+                        $          #Returns prices.
+
+
 
                         
 
