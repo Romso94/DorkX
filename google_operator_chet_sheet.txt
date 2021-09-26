@@ -37,7 +37,7 @@ Categorie :
                                       of the specified words somewhere on the page will be
                                       returned.
 
-                        datarange:  #Return results in a specified range (requires julian
+                        daterange:  #Return results in a specified range (requires julian
                                      dates)
 
                         link:       #Find pages that link to the target domain
@@ -50,23 +50,30 @@ Categorie :
 
                         cache:       #Show Google's cached version of a specific page.
 
+                        related:     #Returns other websites that are similar to the queried 
+                                      website.
+
+                        after: / before: #Finds posts published after/before the specified date
+
        -Informational Search Queries:
                 operator: 
-                        define  #Returns a definition of the given term.
+                        define:  #Returns a definition of the given term.
 
-                        time    #Returns the current time at a particular location.
+                        time:    #Returns the current time at a particular location.
 
-                        to/in      #Convert measurements from one unit to another.
+                        to: / in:      #Convert measurements from one unit to another.
 
-                        translate  #Translates the queried terms into another specified   
+                        translate:  #Translates the queried terms into another specified   
                                     language.
 
-                        map        #Returns map result.
+                        map:        #Returns map result.
 
-                        stocks     #Returns stock information.
+                        stocks:     #Returns stock information.
 
-                        weather    #Returns the weather forecast for the given location or ZIP 
-                                    code
+                        weather:    #Returns the weather forecast for the given location or 
+                                     ZIP code
+
+                        blogurl:    #Shows a URL of a blog on a particular domain
 
        -Basic search operator :
                 operator:
@@ -93,6 +100,16 @@ Categorie :
                                     the query.
 
                         $          #Returns prices.
+
+                        ~          #Include synonyms. Seems to be unreliable, and synonym 
+                                    inclusion is default now.
+
+                        +          #Force exact-match on a single phrase. Deprecated with the 
+                                    launch of Google+.
+
+                        AND        #Displays results that contain all entered keywords
+
+
 
 
 
