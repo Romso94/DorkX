@@ -8,7 +8,8 @@ ________                __    ____  ___
  |    `   (  <_> )  | \/    <  /     \ 
 /_______  /\____/|__|  |__|_ \/___/\  \
         \/                  \/      \_/
-      
+     
+     WORK IN PROGRESS !!!!!
       
    Go check google_operator_cheat_sheet.txt
    
